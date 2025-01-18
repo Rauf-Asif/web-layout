@@ -7,8 +7,48 @@ body {
 header {
     background-color: rgba(250, 250, 3, 0.856);
     color: black;
-    padding: 10px 0;
+    padding-bottom: 10px;
 }
+
+.box {
+   
+    margin: 0 ;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(221, 221, 27, 0.575);
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 100px; 
+}
+
+.phone,
+.hours {
+    margin-right: 45px;
+}
+
+.phone i,
+.hours i {
+    margin-right: 5px;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: 30px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
