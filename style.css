@@ -24,14 +24,14 @@ header {
 .right-side {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-right: 100px;
-     
 }
 
 .phone,
 .hours {
-    margin-right: 45px;
+    margin-right: 50px;
+    font-size: 13px;
 }
 
 .phone i,
@@ -74,6 +74,10 @@ li {
     display: flex;
     justify-content: center;
     padding:  50px 0;
+    background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;    
 }
 
 .content h2 {
@@ -97,4 +101,49 @@ li {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.form-design {
+    background-color:rgba(3,33,69,255);
+    padding: 30px;
+}
+
+.form-design h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-design h3 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: rgba(254,90,86,255);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
