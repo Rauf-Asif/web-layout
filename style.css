@@ -10,10 +10,9 @@ header {
     padding-bottom: 10px;
 }
 
-.box {
-   
+.box {   
     margin: 0 ;
-    padding: 20px;
+    padding: 12px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -31,12 +30,20 @@ header {
 .phone,
 .hours {
     margin-right: 50px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .phone i,
 .hours i {
     margin-right: 5px;
+}
+
+.fa-solid {
+    color: rgba(255,90,88,255);
+}
+
+.fa-regular {
+    color: rgba(255,90,88,255);
 }
 
 .social-icons {
@@ -64,29 +71,34 @@ li {
 
 }
 
+.header-text-color {
+    color: rgba(255,90,88,255);
+    text-align: center;
+}
+
 .container {
     max-width: 960px;
-    margin:0 auto;
     padding: 20px;
+
 }
 
 .main-section {
-    display: flex;
-    justify-content: center;
-    padding:  50px 0;
+    display:grid ;
+    grid-template-columns:1fr 1fr;    
+    padding:30px 0 ;
     background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;    
+    color: gainsboro;    
 }
 
 .content h2 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .content h1 {
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 20px;
 }
 
@@ -106,6 +118,8 @@ li {
 .form-design {
     background-color:rgba(3,33,69,255);
     padding: 30px;
+    width: 350px;
+   
 }
 
 .form-design h2 {
@@ -126,16 +140,10 @@ li {
     margin-bottom: 5px;
 }
 
-.form-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.form-input:focus {
-    outline: none;
-    border-color: #007bff;
+.input-text-style {
+    width: 320px;
+    height: 30px;
+    margin-top: 10px;
 }
 
 button {
@@ -146,4 +154,20 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        text-align: center  ;
+    }
+
+    .main-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        margin-bottom: 30px;
+    }
 }
