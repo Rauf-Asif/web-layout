@@ -15,7 +15,7 @@ header {
     padding: 8px;
     display: flex;
     justify-content:space-between;
-    align-items: center;
+    align-items:center;
     background-color: rgba(253,215,62,255);
 }
 
@@ -162,29 +162,39 @@ button {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .box {
         flex-direction: column;
         text-align: center;
         display: none;
     }
 
+    .main-section {
+    display:grid ;
+    grid-template-columns:1fr 1fr;        
+    background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    .container {
+    position: relative;
+    left: 3px;
+    top: 5px;
+    }
+
+    .form-design {
+        position: relative;
+        left: 3px;
+        top: 1px;
+        padding: 20px;
+    }
+
     .content {
         margin-bottom: 30px;
     }
-
     
-
-}
-@media screen and (min-width:480) {
-    .box {
-        flex-direction: column;
-        text-align: center;
-        display: none;
-    }
     
-    .content {
-        margin-bottom: 30px;
-    }
-
 }
+
