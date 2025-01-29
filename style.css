@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -78,7 +78,7 @@ li {
 
 
 .main-section {
-    display:grid ;
+    display: grid;
     grid-template-columns:1fr 1fr;    
     padding:0px 0 ;
     background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
@@ -89,21 +89,22 @@ li {
 }
 
 .container {
-    max-width: 960px;
+   max-width: 960px;
     padding: 20px;
     position: relative;
     left: 100px;
-    top: 100px;
+    top: 30px;
 }
 
 .content h2 {
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-top: 50px;
 }
 
 .content h1 {
     font-size: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 .content p {
@@ -124,8 +125,8 @@ li {
     padding: 30px;
     width: 350px;
     position: relative;
-    left: 650px;
-    bottom: 430px;
+    left: 665px;
+    bottom: 380px;
 }
 
 .form-design h2 {
@@ -162,7 +163,7 @@ button {
     cursor: pointer;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 780px) {
     .box {
         flex-direction: column;
         text-align: center;
@@ -175,10 +176,12 @@ button {
     background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    text-align: center;
     }
 
     .container {
+    text-align: center;
+    align-items: center;    
     position: relative;
     left: 3px;
     top: 5px;
@@ -192,9 +195,46 @@ button {
     }
 
     .content {
+        text-decoration-line:none;
         margin-bottom: 30px;
     }
     
     
 }
 
+@media screen and (max-width: 480px) and (min-width: 150px) {
+    .box {
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+    
+    .main-section {
+        display:grid ;
+        grid-template-columns:1fr 1fr;        
+        background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }
+    
+    .container {
+        text-align: left;
+        position: relative;
+        left: 3px;
+        top: 5px;
+    }        
+
+    .content {
+        text-decoration-line:none;
+        margin-bottom: 30px;
+    }
+
+    .form-design {
+        position: relative;
+        left: 3px;
+        top: 1px;
+        padding: 20px;
+    }
+
+}
