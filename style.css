@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: rgba(253,215,62,255);
+    background-color: #fbd43b;
     color: black;
     padding-bottom: 10px;
 }
@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background-color: rgba(253,215,62,255);
+    background-color: #d92b20;
 }
 
 .left-side,
@@ -39,11 +39,15 @@ header {
 }
 
 .fa-solid {
-    color: #F12222;
+    color: #fbd43b;
 }
 
 .fa-regular {
-    color: #F12222;
+    color: #fbd43b;
+}
+
+.fa-brands {
+    color: #fbd43b;
 }
 
 .social-icons {
@@ -55,33 +59,45 @@ header {
 .social-icons {
     display: inline-block;
     margin-left: 30px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
     
 }
 
 li {
     display: inline-block;
     margin-left: 20px;
-
+}
+.header-bar {
+    margin: 0;
+    padding: 0;   
+    width: 1350px;
 }
 
-.header-text-color {
-    color: #F12222;
+.header-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    
 }
+.header-bar ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: green;
+}
+
+.header-bar h1 {
+    text-align: center;
+    margin: 0;
+}
+
 
 
 .main-section {
     display: grid;
     grid-template-columns:1fr 1fr;    
     padding:0px 0 ;
-    background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
+    background-color:#004D40;
     background-repeat: no-repeat;
     background-size: cover;
     color: gainsboro;
@@ -121,7 +137,7 @@ li {
 }
 
 .form-design {
-    background-color:rgba(3,33,69,255);
+    background-color: #1a2f4a;
     padding: 30px;
     width: 350px;
     position: relative;
@@ -148,7 +164,7 @@ li {
 }
 
 .input-text-style {
-    width: 320px;
+    width: 340px;
     height: 30px;
     margin-top: 10px;
 }
