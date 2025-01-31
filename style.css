@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background-color: #d92b20;
+    background-color: #ECDFCC;
 }
 
 .left-side,
@@ -39,15 +39,15 @@ header {
 }
 
 .fa-solid {
-    color: #fbd43b;
+    color: #f12222;
 }
 
 .fa-regular {
-    color: #fbd43b;
+    color: #f12222;
 }
 
 .fa-brands {
-    color: #fbd43b;
+    color: #f12222;
 }
 
 .social-icons {
@@ -66,6 +66,7 @@ li {
     display: inline-block;
     margin-left: 20px;
 }
+
 .header-bar {
     margin: 0;
     padding: 0;   
@@ -91,16 +92,14 @@ li {
     margin: 0;
 }
 
-
-
 .main-section {
     display: grid;
     grid-template-columns:1fr 1fr;    
     padding:0px 0 ;
-    background-color:#004D40;
+    background-color:#3C3D37;
     background-repeat: no-repeat;
     background-size: cover;
-    color: gainsboro;
+    color: black;
         
 }
 
@@ -137,12 +136,13 @@ li {
 }
 
 .form-design {
-    background-color: #1a2f4a;
+    background-color: #697565 ;
     padding: 30px;
     width: 350px;
     position: relative;
     left: 665px;
     bottom: 380px;
+    color: white;
 }
 
 .form-design h2 {
@@ -189,10 +189,26 @@ button {
     .main-section {
     display:grid ;
     grid-template-columns:1fr 1fr;        
-    background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
+    background-color:#004D40 ;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    }
+
+    .header-bar {
+        width: auto;
+    }
+
+    .header-bar ul li a {
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 20px;
+        color: green;
+    }
+
+    .header-bar h1 {
+        text-align: center;
+        margin: 0;
     }
 
     .container {
@@ -228,12 +244,27 @@ button {
     .main-section {
         display:grid ;
         grid-template-columns:1fr 1fr;        
-        background-image: url(image/aaron-huber-KxeFuXta4SE-unsplash.jpg);
+        background-color:#004D40;
         background-repeat: no-repeat;
         background-size: cover;
         
         }
     
+        .header-bar {
+            width: auto;
+        }
+    
+        .header-bar ul li a {
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 20px;
+            color: green;
+        }
+    
+        .header-bar h1 {
+            text-align: center;
+            margin: 0;
+        }
     .container {
         text-align: left;
         position: relative;
