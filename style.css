@@ -96,7 +96,7 @@ li {
     display: grid;
     grid-template-columns:1fr 1fr;    
     padding:0px 0 ;
-    background-color:#3C3D37;
+    background-color:#F7F7F7;
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -136,7 +136,7 @@ li {
 }
 
 .form-design {
-    background-color: #697565 ;
+    background-color: #854836 ;
     padding: 30px;
     width: 350px;
     position: relative;
@@ -177,6 +177,38 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.featured-services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featured-services h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    
 }
 
 @media screen and (max-width: 780px) {
