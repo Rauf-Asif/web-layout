@@ -182,6 +182,7 @@ button {
 .featured-services {
     padding: 60px 20px;
     text-align: center;
+    background-color: #F7F7F7;
 }
 
 .container2 {
@@ -215,7 +216,7 @@ button {
 }
 
 .service {
-    background-color: #F7F7F7;
+    background-color: #e0e0e0;
     border-radius: 8px;
     padding: 40px 20px;
     width: 300px;
@@ -253,7 +254,71 @@ button {
     background-color: #e0e0e0;
 }
 
+.latest-posts {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
 
+.latest-posts h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.latest-posts img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.making-post {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.Posts {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 40px 20px;
+    width: 300px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+.Posts img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Posts h3 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.Posts p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.Posts a {
+    display: inline-block;
+    background-color: rgba(255,90,88,255);
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
 
 @media screen and (max-width: 780px) {
     .box {
@@ -265,7 +330,7 @@ button {
     .main-section {
     display:grid ;
     grid-template-columns:1fr 1fr;        
-    background-color:#3C3D37 ;
+    background-color:#F7F7F7 ;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -321,7 +386,7 @@ button {
     .main-section {
         display:grid ;
         grid-template-columns:1fr 1fr;        
-        background-color:#3C3D37;
+        background-color:#F7F7F7;
         background-repeat: no-repeat;
         background-size: cover;
 
