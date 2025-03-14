@@ -279,34 +279,34 @@ button {
 .part3 {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
 }
-
 
 .Posts {
     background-color: #e0e0e0;
     border-radius: 8px;
-    padding: 40px 20px;
+    padding: px px;
     width: 300px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } 
 
 .Posts img{
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+    max-width: 1000px;
+    height: 225px;
+    margin-bottom: px;
     border-radius: 5px;
 }
 
 .Posts h3 {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     text-align: left;
 }
 
 .Posts p {
     margin-bottom: 15px;
     text-align: left;
+    padding: 20px;
 }
 
 .Posts a {
@@ -317,7 +317,7 @@ button {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 780px) {
